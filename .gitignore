@@ -1,0 +1,28 @@
+node_modules/
+
+# ======================
+# Build outputs
+# ======================
+dist/
+build/
+out/
+.next/
+.cache/
+
+!config/build/
+
+# ======================
+# Logs
+# ======================
+logs/
+*.logs
+
+# ======================
+# IDEs
+# ======================
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.iml
