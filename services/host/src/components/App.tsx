@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react';
 import classes from "./App.module.scss";
 import { Link, Outlet } from 'react-router-dom';
-import PngIcon from "@/assets/png.png";
-import JpgIcon from "@/assets/jpg.jpg";
-import SvgIcon from "@/assets/svg.svg";
 
 const App = () => {
   const [counter, setCounter] = useState<number>(0);

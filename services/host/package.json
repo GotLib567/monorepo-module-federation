@@ -13,7 +13,7 @@
     "@babel/preset-react": "^7.28.5",
     "@babel/preset-typescript": "^7.28.5",
     "@types/node": "^20.8.3",
-    "@types/react": "^18.2.25",
+    "@types/react": "^18.3.27",
     "@types/react-dom": "^18.2.11",
     "@types/webpack": "^5.28.3",
     "@types/webpack-bundle-analyzer": "^4.7.0",
@@ -28,10 +28,13 @@
     "ts-loader": "^9.5.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
+    "webpack": "^5.104.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "@packages/build-config": "*",
+    "@packages/shared": "*",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
     "@svgr/webpack": "^8.1.0",
     "@types/babel-core": "^6.25.10",
@@ -40,8 +43,6 @@
     "react-dom": "^18.2.0",
     "react-refresh-typescript": "^2.0.9",
     "react-router-dom": "^6.16.0",
-    "webpack-bundle-analyzer": "^4.9.1",
-    "@packages/shared": "*",
-    "@packages/build-config": "*"
+    "webpack-bundle-analyzer": "^4.9.1"
   }
 }
